@@ -1,0 +1,450 @@
+[
+  {
+    "bsDisName": "구룡역후보상권",
+    "bsDisCode": "12354723",
+    "bsDisType": "B",
+    "addrNew": "서울특별시 강남구 개포동",
+    "addrOld": "서울특별시 강남구 개포2동",
+    "polygonType": "single",
+    "linkStore": []
+  },
+  {
+    "bsDisName": "한티후보상권",
+    "bsDisCode": "1598746321",
+    "bsDisType": "B",
+    "addrNew": "서울특별시 강남구 대치동",
+    "addrOld": "서울특별시 강남구 대치4동",
+    "polygonType": "single",
+    "linkStore": []
+  },
+  {
+    "bsDisName": "동탄",
+    "bsDisCode": "동탄1",
+    "bsDisType": "A",
+    "range": 749,
+    "addrNew": "경기도 화성시 반송동",
+    "addrOld": "경기도 화성시 동탄1동",
+    "linkStore": []
+  },
+  {
+    "bsDisName": "범일 후보상권",
+    "bsDisCode": "1245323",
+    "bsDisType": "B",
+    "range": 1106,
+    "addrNew": "부산광역시 동구 범일동",
+    "addrOld": "부산광역시 동구 범일2동",
+    "linkStore": []
+  },
+  {
+    "bsDisName": "신논현 후보상권",
+    "bsDisCode": "829282",
+    "bsDisType": "B",
+    "range": null,
+    "addrNew": null,
+    "addrOld": null,
+    "polygonType": "single",
+    "linkStore": []
+  },
+  {
+    "bsDisName": "신사 후보 상권",
+    "bsDisCode": "34321",
+    "bsDisType": "E",
+    "range": null,
+    "addrNew": null,
+    "addrOld": null,
+    "polygonType": "single",
+    "linkStore": []
+  },
+  {
+    "bsDisName": "반포 후보상권",
+    "bsDisCode": "523232",
+    "bsDisType": "B",
+    "range": 1696,
+    "addrNew": "서울특별시 서초구 반포동",
+    "addrOld": "서울특별시 서초구 반포본동",
+    "linkStore": []
+  },
+  {
+    "bsDisName": "보라매 후보상권",
+    "bsDisCode": "32423432",
+    "bsDisType": "B",
+    "range": 1728,
+    "addrNew": "서울특별시 동작구 대방동",
+    "addrOld": "서울특별시 동작구 대방동",
+    "linkStore": [
+      {
+        "_id": "64926806968e44eeffb174f2",
+        "storeCode": "239302",
+        "storeName": "해운대점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "고척 후보 상권",
+    "bsDisCode": "1412121",
+    "bsDisType": "B",
+    "range": 515,
+    "addrNew": null,
+    "addrOld": null,
+    "linkStore": []
+  },
+  {
+    "bsDisName": "합정 후보 상권",
+    "bsDisCode": "141211",
+    "bsDisType": "B",
+    "addrNew": "서울특별시 마포구 합정동",
+    "addrOld": "서울특별시 마포구 합정동",
+    "polygonType": "single",
+    "linkStore": []
+  },
+  {
+    "bsDisName": "종로 배달 상권",
+    "bsDisCode": "532522",
+    "bsDisType": "D",
+    "range": null,
+    "addrNew": null,
+    "addrOld": null,
+    "polygonType": "single",
+    "linkStore": [
+      {
+        "_id": "64925ed3968e44eeffb17062",
+        "storeCode": "1415466",
+        "storeName": "압구정점"
+      },
+      {
+        "_id": "649d3b5e7384c2df68676366",
+        "storeCode": "0978978",
+        "storeName": "서울역점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "합정 배달 상권",
+    "bsDisCode": "2341251",
+    "bsDisType": "D",
+    "range": 933,
+    "addrNew": null,
+    "addrOld": null,
+    "linkStore": [
+      {
+        "_id": "64925e8c968e44eeffb17043",
+        "storeCode": "999777",
+        "storeName": "홍대점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "강남 배달 상권",
+    "bsDisCode": "623342",
+    "bsDisType": "D",
+    "range": null,
+    "addrNew": null,
+    "addrOld": null,
+    "polygonType": "single",
+    "linkStore": [
+      {
+        "_id": "64925df2968e44eeffb17025",
+        "storeCode": "1415466",
+        "storeName": "압구정점"
+      },
+      {
+        "_id": "649266b5968e44eeffb173ee",
+        "storeCode": "973416",
+        "storeName": "잠실점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "대전 배달 상권",
+    "bsDisCode": "1234141",
+    "bsDisType": "D",
+    "range": 1934,
+    "addrNew": null,
+    "addrOld": null,
+    "linkStore": [
+      {
+        "_id": "64925da8968e44eeffb1700a",
+        "storeCode": "1235432",
+        "storeName": "대전시청점"
+      },
+      {
+        "_id": "64925da8968e44eeffb1700b",
+        "storeCode": "415646",
+        "storeName": "대전역점"
+      },
+      {
+        "_id": "64925da8968e44eeffb1700c",
+        "storeCode": "415456",
+        "storeName": "관저점"
+      },
+      {
+        "_id": "64926806968e44eeffb174ef",
+        "storeCode": "239302",
+        "storeName": "해운대점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "서면 배달 상권",
+    "bsDisCode": "141412",
+    "bsDisType": "D",
+    "range": 1205,
+    "addrNew": null,
+    "addrOld": null,
+    "linkStore": [
+      {
+        "_id": "64925d3f968e44eeffb16ff3",
+        "storeCode": "466223",
+        "storeName": "서면점"
+      },
+      {
+        "_id": "64925efe968e44eeffb17087",
+        "storeCode": "36734",
+        "storeName": "남포동점"
+      },
+      {
+        "_id": "64926807968e44eeffb174f5",
+        "storeCode": "239302",
+        "storeName": "해운대점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "남포 배달 상권",
+    "bsDisCode": "23412",
+    "bsDisType": "D",
+    "range": 897,
+    "addrNew": null,
+    "addrOld": null,
+    "linkStore": [
+      {
+        "_id": "64925d16968e44eeffb16fe2",
+        "storeCode": "36734",
+        "storeName": "남포동점"
+      },
+      {
+        "_id": "64925eec968e44eeffb17075",
+        "storeCode": "466223",
+        "storeName": "서면점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "기장 배달 상권",
+    "bsDisCode": "1346791",
+    "bsDisType": "D",
+    "range": 1977,
+    "addrNew": null,
+    "addrOld": null,
+    "linkStore": [
+      {
+        "_id": "64925c92968e44eeffb16fc2",
+        "storeCode": "234234",
+        "storeName": "기장점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "광안 배달상권",
+    "bsDisCode": "234211",
+    "bsDisType": "D",
+    "range": null,
+    "addrNew": null,
+    "addrOld": null,
+    "polygonType": "single",
+    "linkStore": [
+      {
+        "_id": "64925b09968e44eeffb16ea0",
+        "storeCode": "2343432342",
+        "storeName": "광안리 1호점"
+      },
+      {
+        "_id": "64925b09968e44eeffb16ea1",
+        "storeCode": "23423423",
+        "storeName": "광안리 2호점"
+      },
+      {
+        "_id": "6492678c968e44eeffb174a5",
+        "storeCode": "239302",
+        "storeName": "해운대점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "남포 상권",
+    "bsDisCode": "342621",
+    "bsDisType": "A",
+    "addrNew": "부산광역시 중구 광복동2가",
+    "addrOld": "부산광역시 중구 광복동",
+    "polygonType": "single",
+    "linkStore": [
+      {
+        "_id": "64925a53968e44eeffb16df3",
+        "storeCode": "36734",
+        "storeName": "남포동점"
+      }
+    ]
+  },
+  {
+    "_id": "649259e7968e44eeffb16dd7",
+    "bsDisName": "서면 상권",
+    "bsDisCode": "123122",
+    "bsDisType": "A",
+    "range": 665,
+    "addrNew": "부산광역시 부산진구 부전동",
+    "addrOld": "부산광역시 부산진구 부전1동",
+    "linkStore": [
+      {
+        "_id": "649259e7968e44eeffb16dd8",
+        "storeCode": "466223",
+        "storeName": "서면점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "광안2호 상권",
+    "bsDisCode": "23432432",
+    "bsDisType": "A",
+    "range": 543,
+    "addrNew": null,
+    "addrOld": null,
+    "linkStore": [
+      {
+        "_id": "64925964968e44eeffb16dc4",
+        "storeCode": "23423423",
+        "storeName": "광안리 2호점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "광안1호 상권",
+    "bsDisCode": "131346",
+    "bsDisType": "A",
+    "addrNew": "부산광역시 수영구 민락동",
+    "addrOld": "부산광역시 수영구 민락동",
+    "polygonType": "single",
+    "linkStore": [
+      {
+        "_id": "64925800968e44eeffb16d67",
+        "storeCode": "2343432342",
+        "storeName": "광안리 1호점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "해운대 상권",
+    "bsDisCode": "62342",
+    "bsDisType": "A",
+    "range": null,
+    "addrNew": null,
+    "addrOld": null,
+    "polygonType": "single",
+    "linkStore": [
+      {
+        "_id": "6492679e968e44eeffb174bd",
+        "storeCode": "239302",
+        "storeName": "해운대점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "기장 상권",
+    "bsDisCode": "2342423",
+    "bsDisType": "A",
+    "addrNew": "부산광역시 기장군 일광읍 삼성리",
+    "addrOld": "부산광역시 기장군 일광읍",
+    "polygonType": "single",
+    "linkStore": [
+      {
+        "_id": "64925763968e44eeffb16d3e",
+        "storeCode": "234234",
+        "storeName": "기장점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "관저 상권",
+    "bsDisCode": "932920",
+    "bsDisType": "A",
+    "range": 1465,
+    "addrNew": "대전광역시 서구 관저동",
+    "addrOld": "대전광역시 서구 관저2동",
+    "linkStore": [
+      {
+        "_id": "6492572f968e44eeffb16d28",
+        "storeCode": "415456",
+        "storeName": "관저점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "대전시청상권",
+    "bsDisCode": "234151",
+    "bsDisType": "A",
+    "addrNew": "대전광역시 서구 탄방동",
+    "addrOld": "대전광역시 서구 탄방동",
+    "polygonType": "single",
+    "linkStore": [
+      {
+        "_id": "64926812968e44eeffb1750a",
+        "storeCode": "1235432",
+        "storeName": "대전시청점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "대전역 상권",
+    "bsDisCode": "342121",
+    "bsDisType": "A",
+    "range": 947,
+    "addrNew": "대전광역시 동구 정동",
+    "addrOld": "대전광역시 동구 중앙동",
+    "linkStore": [
+      {
+        "_id": "649256cf968e44eeffb16d01",
+        "storeCode": "415646",
+        "storeName": "대전역점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "강남 상권",
+    "bsDisCode": "154242",
+    "bsDisType": "A",
+    "addrNew": "서울특별시 강남구 역삼동",
+    "addrOld": "서울특별시 강남구 역삼1동",
+    "polygonType": "single",
+    "linkStore": []
+  },
+  {
+    "bsDisName": "잠실점 상권",
+    "bsDisCode": "33465",
+    "bsDisType": "A",
+    "range": 930,
+    "addrNew": "서울특별시 송파구 잠실동",
+    "addrOld": "서울특별시 송파구 잠실7동",
+    "linkStore": [
+      {
+        "_id": "6492566c968e44eeffb16cda",
+        "storeCode": "973416",
+        "storeName": "잠실점"
+      }
+    ]
+  },
+  {
+    "bsDisName": "압구정 상권",
+    "bsDisCode": "888333",
+    "bsDisType": "A",
+    "range": null,
+    "addrNew": null,
+    "addrOld": null,
+    "polygonType": "single",
+    "linkStore": [
+      {
+        "_id": "649267cc968e44eeffb174d8",
+        "storeCode": "1415466",
+        "storeName": "압구정점"
+      }
+    ]
+  }
+]
