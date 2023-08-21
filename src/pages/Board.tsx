@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import {
   Box,
   Flex,
@@ -7,36 +6,11 @@ import {
   Flex as SideIconDiv,
   Flex as StoreDiv,
   Flex as DistrictDiv,
-  Flex as StoreWrap,
-  Flex as BsnsWrap,
-  Flex as HeaderWrap,
-  Flex as ResultWrap,
-  Flex as SecondBox,
-  Flex as SearchWrap,
-  Flex as StateWrap,
-  Flex as ThirdBox,
-  Flex as FoundingWrap,
-  Flex as InputWrap,
   Text,
-  Select,
-  Input,
-  CheckboxGroup,
-  Checkbox,
-  Stack,
-  Flex as ButtonWrap,
-  Button,
-  Thead,
-  TableContainer,
-  Table,
-  Tr,
-  Th,
-  Tbody,
-  Td,
 } from "@chakra-ui/react";
 import Store from "../components/Store";
 import Result from "../components/Result";
 import Bsns from "../components/Bsns";
-import { ReactComponent as DetailIcon } from "../assets/images/detail.svg";
 import { ReactComponent as StoreIcon } from "../assets/images/storeIcon.svg";
 import { ReactComponent as DistrictIcon } from "../assets/images/districtIcon.svg";
 const Board = () => {
@@ -54,7 +28,7 @@ const Board = () => {
     setDistrict(true);
     console.log("clicked", store, district);
   };
-  
+
   return (
     <Box width={"100vw"} display={"flex"} margin={"0"} padding={"0"}>
       <Sidebar
@@ -81,7 +55,7 @@ const Board = () => {
             _hover={{ cursor: "pointer" }}
             onClick={handleStoreBtn}
           >
-            <StoreIcon width={"100%"} height={"100%"} />
+            <StoreIcon width={"40px"} height={"40px"} />
           </StoreDiv>
           <Text
             width={"30px"}
@@ -125,12 +99,6 @@ const Board = () => {
             <Result />
           </>
         )}
-        {/* 🚀🚀🚀🚀🚀🚀🚀🚀여기부터 StoreWrap 컴포넌트🚀🚀🚀🚀🚀🚀🚀🚀 */}
-        {/* <Store /> */}
-        {/* 🚀🚀🚀🚀🚀🚀🚀🚀여기부터 BsnsWrap 컴포넌트🚀🚀🚀🚀🚀🚀🚀🚀 */}
-        {/* <BsnsWrap>dd</BsnsWrap> */}
-        {/* 🚀🚀🚀🚀🚀🚀🚀🚀여기부터 ResultWrap 컴포넌트🚀🚀🚀🚀🚀🚀🚀🚀 */}
-        {/* <Result /> */}
       </Flex>
     </Box>
   );

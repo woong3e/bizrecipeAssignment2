@@ -1,24 +1,13 @@
-import React from "react";
 import {
   Flex,
   Flex as StoreWrap,
   Flex as HeaderWrap,
   Flex as SecondBox,
   Flex as SearchWrap,
-  Flex as StateWrap,
-  Flex as ThirdBox,
-  Flex as FoundingWrap,
-  Flex as InputWrap,
   Text,
   Select,
   Input,
-  CheckboxGroup,
-  Checkbox,
-  Stack,
-  Flex as ButtonWrap,
-  Button,
 } from "@chakra-ui/react";
-import { ReactComponent as SearchIcon } from "../assets/images/search.svg";
 
 const Bsns = () => {
   return (
