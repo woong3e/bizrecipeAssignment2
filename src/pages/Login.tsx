@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent, useEffect } from "react";
+import React, { useState, ChangeEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { ReactComponent as Logo } from "../assets/images/logo.svg";
 import { ReactComponent as LogoText } from "../assets/images/logo_text.svg";
@@ -60,7 +60,7 @@ const Login = () => {
     passwordValid: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$/.test(password),
   };
 
-  const { emailValid, passwordValid } = userValidation;
+  const { emailValid } = userValidation;
 
   const alertMsg = {
     emailMsg: userValidation.emailValid ? "" : "이메일을 다시 확인해주세요.",
@@ -69,7 +69,7 @@ const Login = () => {
       : "영소/대문자, 숫자 포함. 필수 6~12자형식입니다.",
   };
 
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  const { onClose } = useDisclosure();
 
   const handleOnChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -157,11 +157,12 @@ const Login = () => {
             placeholder="이메일을 입력하세요."
             padding="8px 12px"
             _focus={
-              email.length > 0 &&
-              !emailValid && {
-                boxShadow: "0px 0px 0px 1px red",
-                border: "1px solid red",
-              }
+              email.length > 0 && !emailValid
+                ? {
+                    boxShadow: "0px 0px 0px 1px red",
+                    border: "1px solid red",
+                  }
+                : undefined
             }
             onChange={handleOnChange}
             onClick={clickCapsLockEmail}
@@ -201,11 +202,12 @@ const Login = () => {
               padding="8px 12px"
               onChange={handleOnChange}
               _focus={
-                password.length > 0 &&
-                !passwordValid && {
-                  boxShadow: "0px 0px 0px 1px red",
-                  border: "1px solid red",
-                }
+                email.length > 0 && !emailValid
+                  ? {
+                      boxShadow: "0px 0px 0px 1px red",
+                      border: "1px solid red",
+                    }
+                  : undefined
               }
               onClick={clickCapsLockPassword}
               onKeyUp={checkCapsLockPassword}

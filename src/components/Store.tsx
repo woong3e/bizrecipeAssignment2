@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Flex,
   Flex as StoreWrap,

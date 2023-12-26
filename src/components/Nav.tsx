@@ -1,9 +1,6 @@
-import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   Box,
-  Center,
-  Container,
   Flex,
   Flex as Tabs,
   Button as MapWrap,
@@ -14,6 +11,7 @@ import { ReactComponent as MapIcon } from "../assets/images/map_icon.svg";
 import { ReactComponent as MapText } from "../assets/images/map_text.svg";
 import { ReactComponent as BoardIcon } from "../assets/images/board_icon.svg";
 import { ReactComponent as BoardText } from "../assets/images/board_text.svg";
+import { useState } from "react";
 
 const Nav = () => {
   const navigate = useNavigate();

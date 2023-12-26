@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import {
   Box,
   Flex,
@@ -13,6 +12,7 @@ import Result from "../components/Result";
 import Bsns from "../components/Bsns";
 import { ReactComponent as StoreIcon } from "../assets/images/storeIcon.svg";
 import { ReactComponent as DistrictIcon } from "../assets/images/districtIcon.svg";
+import { useState } from "react";
 const Board = () => {
   const [store, setStore] = useState<boolean>(true);
   const [district, setDistrict] = useState<boolean>(false);
