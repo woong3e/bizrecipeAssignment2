@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Modal,
   ModalOverlay,
@@ -12,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 
 const LoginModal = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  const { isOpen, onClose } = useDisclosure();
   return (
     <Modal onClose={onClose} isOpen={isOpen} isCentered>
       <ModalOverlay />

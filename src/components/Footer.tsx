@@ -1,5 +1,4 @@
-import React from "react";
-import { Center, Flex, Container } from "@chakra-ui/react";
+import { Flex, Container } from "@chakra-ui/react";
 const Footer = () => {
   return (
     <Container width="100vw" position="absolute" bottom="0" left="0" right="0">
